@@ -1,0 +1,49 @@
+.box-layout {
+    align-items: center;
+    background: url('/images/bg.jpg');
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.box-layout__box {
+    background: fade-out(white, .15);
+    border-radius: 3px;
+    text-align: center;
+    width: 60rem;
+    padding: $s-size $l-size;
+
+    img {
+        margin:$l-size 0;
+    }
+
+    form {
+        margin-top: $l-size;
+    }
+}
+
+.box-layout__title {
+    margin: 0 0 $m-size 0;
+    line-height: 1;
+}
+.dana-visitor-list-container{
+    padding: $l-size $xl-size;
+}
+.dana-navbar-heading {
+    padding: 3px 0px;
+
+    img {
+        max-height: 100%;
+        margin-right: 5px;
+    }
+}
+.dana-welcome {
+    height: 80vh;
+    
+    img {
+        width: 100%;
+        max-height: 100%;
+    }
+}

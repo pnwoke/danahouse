@@ -1,0 +1,27 @@
+.button {
+    background: $blue;
+    border: none;
+    color: white;
+    display: inline-block;
+    font-size: $font-size-large;
+    font-weight: 300;
+    line-height: 1;
+    padding: $s-size;
+    text-decoration: none;
+}
+
+.button__link {
+    background: none;
+}
+
+.button--secondary {
+    background: #888;
+}
+
+.ppp {
+    color: red;
+}
+
+.dana-btn {
+    margin: 0 auto;
+}

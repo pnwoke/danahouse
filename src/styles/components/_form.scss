@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+
+    > * {
+        margin-bottom: $m-size;
+    }
+}
+
+.form__error {
+    margin: 0 0 $m-size 0;
+    font-style: italic;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+
+    > *{
+        flex-grow: 1;
+    }
+
+    > *:first-child {
+        margin-right: 1rem;
+    }
+}
+
+.v-pics {
+    margin: 2rem auto;
+    height: 20rem;
+    width: 100%;
+}
